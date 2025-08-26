@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Post with cover image
- * Slug: powder/template-post-cover
- * Categories: powder-template
+ * Slug: [themeslug]/template-post-cover
+ * Categories: [themeslug]-template
  * Template Types: single
  */
 ?>
@@ -36,8 +36,8 @@
 				</header>
 				<!-- /wp:group -->
 				<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
-				<!-- wp:pattern {"slug":"powder/post-terms"} /-->
-				<!-- wp:pattern {"slug":"powder/comments"} /-->
+				<!-- wp:pattern {"slug":"[themeslug]/post-terms"} /-->
+				<!-- wp:pattern {"slug":"[themeslug]/comments"} /-->
 			</div>
 			<!-- /wp:group -->
 		</div>

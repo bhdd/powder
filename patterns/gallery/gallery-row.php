@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Gallery with row of images
- * Slug: powder/gallery-row
- * Categories: powder-gallery
+ * Slug: [themeslug]/gallery-row
+ * Categories: [themeslug]-gallery
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Gallery"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
@@ -10,10 +10,10 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
+		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', '[themeslug]' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"x-small"} -->
-		<p class="has-x-small-font-size"><a href="#"><?php echo esc_html__( 'Follow Me →', 'powder' ); ?></a></p>
+		<p class="has-x-small-font-size"><a href="#"><?php echo esc_html__( 'Follow Me →', '[themeslug]' ); ?></a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

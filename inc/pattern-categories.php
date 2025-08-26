@@ -2,12 +2,12 @@
 /**
  * Register pattern category.
  */
-function powder_register_pattern_category( $slug, $label, $description ) {
+function theme_register_pattern_category( $slug, $label, $description ) {
 	register_block_pattern_category(
-		'powder-' . $slug,
+		'[themeslug]-' . $slug,
 		array(
-			'label'       => __( $label, 'powder' ),
-			'description' => __( $description, 'powder' ),
+			'label'       => __( $label, '[themeslug]' ),
+			'description' => __( $description, '[themeslug]' ),
 		)
 	);
 }
@@ -15,26 +15,26 @@ function powder_register_pattern_category( $slug, $label, $description ) {
 /**
  * Register pattern categories.
  */
-function powder_register_pattern_categories() {
+function theme_register_pattern_categories() {
 	$categories = array(
-		'about'          => array( __( 'About', 'powder' ), __( 'A collection of about patterns for Powder.', 'powder' ) ),
-		'call-to-action' => array( __( 'Call to Action', 'powder' ), __( 'A collection of call to action patterns for Powder.', 'powder' ) ),
-		'content'        => array( __( 'Content', 'powder' ), __( 'A collection of content patterns for Powder.', 'powder' ) ),
-		'faq'            => array( __( 'FAQs', 'powder' ), __( 'A collection of FAQ patterns for Powder.', 'powder' ) ),
-		'featured'       => array( __( 'Featured', 'powder' ), __( 'A collection of featured patterns for Powder.', 'powder' ) ),
-		'footer'         => array( __( 'Footer', 'powder' ), __( 'A collection of footer patterns for Powder.', 'powder' ) ),
-		'gallery'        => array( __( 'Gallery', 'powder' ), __( 'A collection of gallery patterns for Powder.', 'powder' ) ),
-		'header'         => array( __( 'Header', 'powder' ), __( 'A collection of header patterns for Powder.', 'powder' ) ),
-		'hero'           => array( __( 'Hero', 'powder' ), __( 'A collection of hero patterns for Powder.', 'powder' ) ),
-		'posts'          => array( __( 'Posts', 'powder' ), __( 'A collection of posts patterns for Powder.', 'powder' ) ),
-		'pricing'        => array( __( 'Pricing', 'powder' ), __( 'A collection of pricing patterns for Powder.', 'powder' ) ),
-		'team'           => array( __( 'Team', 'powder' ), __( 'A collection of team patterns for Powder.', 'powder' ) ),
-		'template'       => array( __( 'Template', 'powder' ), __( 'A collection of template patterns for Powder.', 'powder' ) ),
-		'testimonials'   => array( __( 'Testimonials', 'powder' ), __( 'A collection of testimonials patterns for Powder.', 'powder' ) ),
+		'about'          => array( __( 'About', '[themeslug]' ), __( 'A collection of about patterns for [themename].', '[themeslug]' ) ),
+		'call-to-action' => array( __( 'Call to Action', '[themeslug]' ), __( 'A collection of call to action patterns for [themename].', '[themeslug]' ) ),
+		'content'        => array( __( 'Content', '[themeslug]' ), __( 'A collection of content patterns for [themename].', '[themeslug]' ) ),
+		'faq'            => array( __( 'FAQs', '[themeslug]' ), __( 'A collection of FAQ patterns for [themename].', '[themeslug]' ) ),
+		'featured'       => array( __( 'Featured', '[themeslug]' ), __( 'A collection of featured patterns for [themename].', '[themeslug]' ) ),
+		'footer'         => array( __( 'Footer', '[themeslug]' ), __( 'A collection of footer patterns for [themename].', '[themeslug]' ) ),
+		'gallery'        => array( __( 'Gallery', '[themeslug]' ), __( 'A collection of gallery patterns for [themename].', '[themeslug]' ) ),
+		'header'         => array( __( 'Header', '[themeslug]' ), __( 'A collection of header patterns for [themename].', '[themeslug]' ) ),
+		'hero'           => array( __( 'Hero', '[themeslug]' ), __( 'A collection of hero patterns for [themename].', '[themeslug]' ) ),
+		'posts'          => array( __( 'Posts', '[themeslug]' ), __( 'A collection of posts patterns for [themename].', '[themeslug]' ) ),
+		'pricing'        => array( __( 'Pricing', '[themeslug]' ), __( 'A collection of pricing patterns for [themename].', '[themeslug]' ) ),
+		'team'           => array( __( 'Team', '[themeslug]' ), __( 'A collection of team patterns for [themename].', '[themeslug]' ) ),
+		'template'       => array( __( 'Template', '[themeslug]' ), __( 'A collection of template patterns for [themename].', '[themeslug]' ) ),
+		'testimonials'   => array( __( 'Testimonials', '[themeslug]' ), __( 'A collection of testimonials patterns for [themename].', '[themeslug]' ) ),
 	);
 
 	foreach ( $categories as $slug => $details ) {
-		powder_register_pattern_category( $slug, $details[0], $details[1] );
+		theme_register_pattern_category( $slug, $details[0], $details[1] );
 	}
 }
-add_action( 'init', 'powder_register_pattern_categories' );
+add_action( 'init', 'theme_register_pattern_categories' );

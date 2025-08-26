@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Post with featured image
- * Slug: powder/template-post-featured
- * Categories: powder-template
+ * Slug: [themeslug]/template-post-featured
+ * Categories: [themeslug]-template
  * Template Types: single
  */
 ?>
@@ -36,8 +36,8 @@
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
 					<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
-					<!-- wp:pattern {"slug":"powder/post-terms"} /-->
-					<!-- wp:pattern {"slug":"powder/comments"} /-->
+					<!-- wp:pattern {"slug":"[themeslug]/post-terms"} /-->
+					<!-- wp:pattern {"slug":"[themeslug]/comments"} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>

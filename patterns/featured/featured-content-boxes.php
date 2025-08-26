@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Section with content boxes
- * Slug: powder/featured-content-boxes
- * Categories: powder-featured
+ * Slug: [themeslug]/featured-content-boxes
+ * Categories: [themeslug]-featured
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Feature Boxes"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
@@ -10,10 +10,10 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px","margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)">
 		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px"}}} -->
-		<h2 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></h2>
+		<h2 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Meet [themename]', '[themeslug]' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><?php echo esc_html__( 'Redefine your space with a stylish, modern design.', 'powder' ); ?></p>
+		<p class="has-text-align-center"><?php echo esc_html__( 'Redefine your space with a stylish, modern design.', '[themeslug]' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
@@ -25,10 +25,10 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish [themename] theme.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -38,10 +38,10 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish [themename] theme.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -51,10 +51,10 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish [themename] theme.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -64,10 +64,10 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish [themename] theme.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -77,10 +77,10 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish [themename] theme.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -90,10 +90,10 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
-			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish [themename] theme.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page with cover image
- * Slug: powder/template-page-cover
- * Categories: powder-template
+ * Slug: [themeslug]/template-page-cover
+ * Categories: [themeslug]-template
  * Template Types: page
  */
 ?>

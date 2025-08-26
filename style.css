@@ -1,17 +1,14 @@
 /*
-Theme Name: Powder
-Theme URI: https://powder.design/
-Author: Brian Gardner
-Author URI: https://briangardner.com/
-Description: Powder embraces its minimalist roots with clarity and balance. Optimized for the WordPress block editor, it features an extensive pattern library, versatile templates, and tailored color palettes—empowering designers and developers to create stunning websites.
+Theme Name: [themename]
+Author: [organizationname]
+Author URI: [siteurl
+Description: Custom theme for [sitename]
 Version: 1.6.4
+Update URI: false
 Requires at least: 6.8
-Tested up to: 6.8
-Requires PHP: 7.2
-License: GNU General Public License v3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: powder
-Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, style-variations, translation-ready, wide-blocks
+Tested up to: 6.8.2
+Requires PHP: 7.4
+Text Domain: [themeslug]
 */
 
 

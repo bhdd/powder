@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Single testimonial with text, image
- * Slug: powder/testimonials-single-contrast
- * Categories: powder-testimonials
+ * Slug: [themeslug]/testimonials-single-contrast
+ * Categories: [themeslug]-testimonials
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonial"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
@@ -11,7 +11,7 @@
 	<p class="has-text-align-center has-small-font-size">★ ★ ★ ★ ★</p>
 	<!-- /wp:paragraph -->
 	<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"10px"}},"typography":{"lineHeight":"1.5"}},"fontSize":"large"} -->
-	<p class="has-text-align-center has-large-font-size" style="margin-top:10px;line-height:1.5"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+	<p class="has-text-align-center has-large-font-size" style="margin-top:10px;line-height:1.5"><?php echo esc_html__( '“[themename] is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', '[themeslug]' ); ?></p>
 	<!-- /wp:paragraph -->
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 	<div class="wp-block-group">

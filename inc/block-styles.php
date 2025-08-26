@@ -2,22 +2,22 @@
 /**
  * Register block styles.
  */
-function powder_register_block_styles() {
+function theme_register_block_styles() {
 	$block_styles = array(
 		'core/columns' => array(
-			'column-reverse' => __( 'Reverse', 'powder' ),
+			'column-reverse' => __( 'Reverse', '[themeslug]' ),
 		),
 		'core/cover' => array(
-			'gradient' => __( 'Gradient', 'powder' ),
+			'gradient' => __( 'Gradient', '[themeslug]' ),
 		),
 		'core/heading' => array(
-			'balanced' => __( 'Balanced', 'powder' ),
+			'balanced' => __( 'Balanced', '[themeslug]' ),
 		),
 		'core/list' => array(
-			'no-style' => __( 'No Style', 'powder' ),
+			'no-style' => __( 'No Style', '[themeslug]' ),
 		),
 		'core/social-links' => array(
-			'outline' => __( 'Outline', 'powder' ),
+			'outline' => __( 'Outline', '[themeslug]' ),
 		),
 	);
 	foreach ( $block_styles as $block => $styles ) {
@@ -32,4 +32,4 @@ function powder_register_block_styles() {
 		}
 	}
 }
-add_action( 'init', 'powder_register_block_styles' );
+add_action( 'init', 'theme_register_block_styles' );

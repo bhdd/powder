@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Pricing table with 3 columns
- * Slug: powder/pricing-3-columns-contrast
- * Categories: powder-pricing
+ * Slug: [themeslug]/pricing-3-columns-contrast
+ * Categories: [themeslug]-pricing
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Pricing"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"blockGap":"var:preset|spacing|60","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
@@ -10,12 +10,12 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
 		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px"}}} -->
-		<h2 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Discover our pricing options', 'powder' ); ?></h2>
+		<h2 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Discover our pricing options', '[themeslug]' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:group {"layout":{"type":"constrained","wideSize":"480px"}} -->
 		<div class="wp-block-group">
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Choose the plan that best suits your business needs. (Lifetime offers the most value. Ka-chow!)', 'powder' ); ?></p>
+			<p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Choose the plan that best suits your business needs. (Lifetime offers the most value. Ka-chow!)', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -30,7 +30,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
-					<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Basic', 'powder' ); ?></p>
+					<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Basic', '[themeslug]' ); ?></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"bottom"}} -->
 					<div class="wp-block-group">
@@ -39,14 +39,14 @@
 						
 						<!-- /wp:paragraph -->
 						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'year', 'powder' ); ?></p>
+						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'year', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 				</div>
 				<!-- /wp:group -->
 				<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}},"typography":{"lineHeight":"1.5"}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who are curious or just getting started.', 'powder' ); ?></p>
+				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who are curious or just getting started.', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
@@ -56,7 +56,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Powder theme', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( '[themename] theme', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -66,7 +66,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Basic support', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Basic support', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -76,7 +76,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-x.svg'; ?>" alt="Circle x icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -86,7 +86,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-x.svg'; ?>" alt="Circle x icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -95,7 +95,7 @@
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">
 					<!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Get Basic →', 'powder' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Get Basic →', '[themeslug]' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->
@@ -110,7 +110,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
-					<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Lifetime', 'powder' ); ?></p>
+					<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Lifetime', '[themeslug]' ); ?></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"bottom"}} -->
 					<div class="wp-block-group">
@@ -118,14 +118,14 @@
 						<p class="has-text-align-center has-xx-large-font-size" style="font-style:normal;font-weight:400;line-height:1">$295</p>
 						<!-- /wp:paragraph -->
 						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'once', 'powder' ); ?></p>
+						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'once', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 				</div>
 				<!-- /wp:group -->
 				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who want the deal of a lifetime. Literally.', 'powder' ); ?></p>
+				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who want the deal of a lifetime. Literally.', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
@@ -135,7 +135,7 @@
 						<figure class="wp-block-image size-full is-resized is-style-invert"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Powder theme', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( '[themename] theme', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -145,7 +145,7 @@
 						<figure class="wp-block-image size-full is-resized is-style-invert"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Premium support', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Premium support', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -155,7 +155,7 @@
 						<figure class="wp-block-image size-full is-resized is-style-invert"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -165,7 +165,7 @@
 						<figure class="wp-block-image size-full is-resized is-style-invert"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -174,7 +174,7 @@
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">
 					<!-- wp:button {"backgroundColor":"base","textColor":"contrast","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Get Lifetime →', 'powder' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Get Lifetime →', '[themeslug]' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->
@@ -189,7 +189,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
-					<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Premier', 'powder' ); ?></p>
+					<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Premier', '[themeslug]' ); ?></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"bottom"}} -->
 					<div class="wp-block-group">
@@ -197,14 +197,14 @@
 						<p class="has-text-align-center has-xx-large-font-size" style="font-style:normal;font-weight:400;line-height:1">$195</p>
 						<!-- /wp:paragraph -->
 						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'year', 'powder' ); ?></p>
+						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'year', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 				</div>
 				<!-- /wp:group -->
 				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who see the value of this amazing offer.', 'powder' ); ?></p>
+				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who see the value of this amazing offer.', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
@@ -214,7 +214,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Powder theme', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( '[themename] theme', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -224,7 +224,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Premium support', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Premium support', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -234,7 +234,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -244,7 +244,7 @@
 						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', 'powder' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '[themeslug]' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -253,7 +253,7 @@
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">
 					<!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Get Basic →', 'powder' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Get Basic →', '[themeslug]' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->

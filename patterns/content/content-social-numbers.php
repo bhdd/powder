@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Social media followers
- * Slug: powder/content-social-numbers
- * Categories: powder-content
+ * Slug: [themeslug]/content-social-numbers
+ * Categories: [themeslug]-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Social Numbers"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","wideSize":"1080px"}} -->
@@ -15,7 +15,7 @@
 			<p class="has-text-align-center" style="font-size:48px;line-height:1">40K</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'Instagram Followers', 'powder' ); ?></p>
+			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'Instagram Followers', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -25,7 +25,7 @@
 			<p class="has-text-align-center" style="font-size:48px;line-height:1">75K</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'TikTok Followers', 'powder' ); ?></p>
+			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'TikTok Followers', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -35,7 +35,7 @@
 			<p class="has-text-align-center" style="font-size:48px;line-height:1">30K</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'X / Twitter Followers', 'powder' ); ?></p>
+			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'X / Twitter Followers', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -45,7 +45,7 @@
 			<p class="has-text-align-center" style="font-size:48px;line-height:1">15K</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'YouTube Followers', 'powder' ); ?></p>
+			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'YouTube Followers', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -55,7 +55,7 @@
 			<p class="has-text-align-center" style="font-size:48px;line-height:1">20K</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'Facebook Fans', 'powder' ); ?></p>
+			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'Facebook Fans', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Testimonials in grid view
- * Slug: powder/testimonials-grid-contrast
- * Categories: powder-testimonials
+ * Slug: [themeslug]/testimonials-grid-contrast
+ * Categories: [themeslug]-testimonials
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonials"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
@@ -15,7 +15,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“[themename] is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -23,7 +23,7 @@
 				<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-avatar-light.svg'; ?>" alt="Sample avatar" style="object-fit:cover;width:40px;height:40px"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', 'powder' ); ?></p>
+				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -35,7 +35,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“[themename] is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -43,7 +43,7 @@
 				<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-avatar-light.svg'; ?>" alt="Sample avatar" style="object-fit:cover;width:40px;height:40px"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', 'powder' ); ?></p>
+				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -55,7 +55,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“[themename] is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -63,7 +63,7 @@
 				<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-avatar-light.svg'; ?>" alt="Sample avatar" style="object-fit:cover;width:40px;height:40px"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', 'powder' ); ?></p>
+				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -75,7 +75,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“[themename] is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -83,7 +83,7 @@
 				<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-avatar-light.svg'; ?>" alt="Sample avatar" style="object-fit:cover;width:40px;height:40px"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', 'powder' ); ?></p>
+				<p class="has-small-font-size"><?php echo esc_html__( 'Jennifer Kayne, Designer', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

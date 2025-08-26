@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: List of posts with columns
- * Slug: powder/posts-list
- * Categories: powder-posts
+ * Slug: [themeslug]/posts-list
+ * Categories: [themeslug]-posts
  * Block Types: core/query
  */
 ?>

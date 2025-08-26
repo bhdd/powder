@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Section with image, text, buttons
- * Slug: powder/hero-columns-image-text-contrast
- * Categories: powder-hero
+ * Slug: [themeslug]/hero-columns-image-text-contrast
+ * Categories: [themeslug]-hero
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Hero Section"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
@@ -21,7 +21,7 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400","lineHeight":"1"}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
+				<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Meet [themename]', '[themeslug]' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:separator -->
 				<hr class="wp-block-separator has-alpha-channel-opacity"/>
@@ -29,18 +29,18 @@
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:heading {"style":{"typography":{"fontSize":"48px"}}} -->
-			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Design and build stunning websites with [themename].', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
-			<p style="margin-top:var(--wp--preset--spacing--20)"><?php echo esc_html__( 'Our goal is to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design.', 'powder' ); ?></p>
+			<p style="margin-top:var(--wp--preset--spacing--20)"><?php echo esc_html__( 'Our goal is to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button {"backgroundColor":"base","textColor":"contrast","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
-				<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Call to Action', 'powder' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Call to Action', '[themeslug]' ); ?></a></div>
 				<!-- /wp:button -->
 				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Learn More', 'powder' ); ?></a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Learn More', '[themeslug]' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post meta
- * Slug: powder/post-meta
+ * Slug: [themeslug]/post-meta
  * Inserter: no
  */
 ?>

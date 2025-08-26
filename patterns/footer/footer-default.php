@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Default footer
- * Slug: powder/footer
- * Categories: powder-footer
+ * Slug: [themeslug]/footer
+ * Categories: [themeslug]-footer
  * Block Types: core/template-part/footer
  */
 ?>
@@ -22,9 +22,6 @@
 			<!-- /wp:group -->
 			<!-- wp:paragraph -->
 			<p> · </p>
-			<!-- /wp:paragraph -->
-			<!-- wp:paragraph -->
-			<p><a href="https://powder.design/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

@@ -128,7 +128,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "640px",
+			"contentSize": "840px",
 			"wideSize": "1280px"
 		},
 		"shadow": {
@@ -331,7 +331,14 @@
 				"css": "&.is-style-balanced {text-wrap: balance;}"
 			},
 			"core/image": {
-				"css": "&.is-style-invert {filter: invert(1);}"
+				"css": "&.is-style-invert {filter: invert(1);}",
+				"variations": {
+					"rounded": {
+						"border": {
+							"radius": "0.5rem"
+						}
+					}
+				}
 			},
 			"core/list": {
 				"css": "&.is-style-no-style {list-style-type: none; padding-left: 0;}",
@@ -348,6 +355,9 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
+			},
+			"core/paragraph": {
+				"css": "&.is-style-lead {font-size: var(--wp--preset--font-size--medium)}"
 			},
 			"core/post-comments-form": {
 				"css": " & .form-submit {margin-bottom: 0;}"
@@ -369,9 +379,6 @@
 							}
 						}
 					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"core/preformatted": {
@@ -509,6 +516,7 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
+		"css": "::selection { background-color: var(--wp--preset--color--secondary); color: var(--wp--preset--color--contrast); }",
 		"elements": {
 			"button": {
 				"border": {
@@ -531,6 +539,11 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)",
 					"fontWeight": "var(--wp--custom--font-weight--regular)",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--tertiary)"
+					}
 				}
 			},
 			"caption": {
@@ -576,7 +589,7 @@
 			},
 			"heading": {
 				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--regular)",
+					"fontWeight": "var(--wp--custom--font-weight--bold)",
 					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				}
 			},
@@ -614,19 +627,9 @@
 			"title": "Header"
 		},
 		{
-			"area": "header",
-			"name": "header-alt",
-			"title": "Header (Alt)"
-		},
-		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
-		},
-		{
-			"area": "sidebar",
-			"name": "sidebar",
-			"title": "Sidebar"
 		}
 	],
 	"customTemplates": [
@@ -643,13 +646,6 @@
 				"page"
 			],
 			"title": "No Title"
-		},
-		{
-			"name": "no-title-alt",
-			"postTypes": [
-				"page"
-			],
-			"title": "No Title (Alt)"
 		}
 	]
 }

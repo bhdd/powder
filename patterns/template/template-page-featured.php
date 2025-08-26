@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page with featured image
- * Slug: powder/template-page-featured
- * Categories: powder-template
+ * Slug: [themeslug]/template-page-featured
+ * Categories: [themeslug]-template
  * Template Types: page
  */
 ?>

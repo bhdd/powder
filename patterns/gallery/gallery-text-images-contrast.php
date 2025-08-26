@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Gallery with text and images
- * Slug: powder/gallery-text-images-contrast
- * Categories: powder-gallery
+ * Slug: [themeslug]/gallery-text-images-contrast
+ * Categories: [themeslug]-gallery
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Gallery"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
@@ -12,13 +12,13 @@
 		<!-- wp:column {"verticalAlignment":"center","width":"30%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
 		<div class="wp-block-column is-vertically-aligned-center has-small-font-size" style="line-height:1.5;flex-basis:30%">
 			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', '[themeslug]' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'Powder reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional WordPress design standards, offering a canvas where creativity flourishes.', 'powder' ); ?></p>
+			<p><?php echo esc_html__( '[themename] reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional WordPress design standards, offering a canvas where creativity flourishes.', '[themeslug]' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
-			<p><a href="#"><?php echo esc_html__( 'View Gallery →', 'powder' ); ?></a></p>
+			<p><a href="#"><?php echo esc_html__( 'View Gallery →', '[themeslug]' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

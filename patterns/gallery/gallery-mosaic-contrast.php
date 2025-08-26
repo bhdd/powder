@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Gallery with mosaic of images
- * Slug: powder/gallery-mosaic-contrast
- * Categories: powder-gallery
+ * Slug: [themeslug]/gallery-mosaic-contrast
+ * Categories: [themeslug]-gallery
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Gallery"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
